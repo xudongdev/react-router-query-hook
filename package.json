@@ -1,0 +1,35 @@
+{
+  "name": "react-router-query-hook",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "react",
+    "react-router",
+    "hook",
+    "query"
+  ],
+  "author": "Xudong Huang <me@xudong.cc> (https://www.xudong.cc)",
+  "bugs": "https://github.com/hxddev/react-router-query-hook/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hxddev/react-router-query-hook.git"
+  },
+  "license": "MIT",
+  "main": "dist/use-query.cjs.js",
+  "module": "dist/use-query.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "qs": "^6.9.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-router-dom": "^5.1.0"
+  }
+}
